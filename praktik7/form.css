@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: #ce93d8;
+    padding: 15px 100px;
+}
+
+.navbar a {
+    color: #fff;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    border-left: 1px solid #fff;
+}
+
+.text-title {
+    font-size: 20px !important;
+    border-left: 0 !important;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 100;
+}
+
+table {
+    margin: 30px auto;
+}
+
+input, select {
+    height: 25px;
+
+}
+
+input, select ,textarea {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+td {
+    padding: 5px 15px;
+}
+
+label {
+    display: block;
+    text-align: end;
+    font-size: 14px;
+    font-weight: bold;
+}/*Karena tag Label inline makanya harus pakai display:block*/
+
+button {
+    padding: 6px 10px;
+    border: 0;
+    border-radius: 4px;
+    color: wheat;
+}
+
+.btn-blue {
+    background-color: cornflowerblue;
+}
+
+.btn-red {
+    background-color: crimson;
+}
